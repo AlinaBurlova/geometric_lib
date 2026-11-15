@@ -64,8 +64,8 @@
 
 | Хэш | Сообщение |
 |---|---|
-| 8ba9aeb | L-03: Circle and square added |
-| d078c8d | L-03: Docs added |
+| 8ba9aeb | Circle and square added |
+| d078c8d | Docs added |
 | e052ebb | Added the func for calc for a rectangle |
 | c0d853e | Fix func for calc the perimeter of a rectangle |
 | 23c293c | Edit lib |
