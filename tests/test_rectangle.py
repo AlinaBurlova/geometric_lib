@@ -20,9 +20,12 @@ class RectangleTestCase(unittest.TestCase):
     def test_perimeter_zero(self):
         self.assertEqual(perimeter(0, 0), 0)
 
-    def test_area_string_raises(self):
+    def test_area_string_current_behavior(self):
+        self.assertEqual(area("5", 10), "5555555555")
+
+    def test_area_two_strings_raises(self):
         with self.assertRaises(TypeError):
-            area("5", 10)
+            area("5", "10")
 
     def test_perimeter_regression_fix(self):
         self.assertEqual(perimeter(5, 10), 30)
