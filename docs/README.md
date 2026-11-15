@@ -68,3 +68,6 @@
 | d078c8d | L-03: Docs added |
 | e052ebb | Added the func for calc for a rectangle |
 | c0d853e | Fix func for calc the perimeter of a rectangle |
+| 23c293c | Edit lib |
+| 7443bdb | Unit tests added (unittest) |
+| 92b39ef | Fix test_rectangle after hypothesis rejection |
